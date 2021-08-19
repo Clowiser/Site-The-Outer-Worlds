@@ -1,0 +1,67 @@
+<!-- sans idée pour le moment de la conception de la page : forum? Simple lieux ou on psote des commentaires? A TRAVAILLER!! -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="../css/stylecommu.css" />
+		<link rel="stylesheet" media="screen and (max-widdiv: 1280px)" href="petite-resol.css" />
+		<title>Communauté</title> 
+	</head>
+
+<body>
+		<header>
+			<div id="conteneur0">
+				<nav>
+					<div class="siteofficiel"><a href="https://outerworlds.obsidian.net/fr">Site officiel</a></div>
+					<div class="actualités"><a href="https://outerworlds.obsidian.net/fr/news">Actualités du Site Officiel</div></a> <!-- page non créée // je triche, c'est les news du site officiel --> 
+					<div class="logoownoir"><a href="../htmls/Outerworlds.html"><img src="../assets/img/logoownoir.png" class="logoownoir" alt="Logo the Outer Worlds" title="Logo the Outer Wordls" ></a></div>
+					<div class="galerie"><a href="../htmls/galerieimages.html">Galerie d'images</div></a> <!-- page non créée : à faire pour s'éxercer sur la MEP des images avec un scroll --> 
+					<div class="communauté"><a href="../htmls/communauté.html">Communauté</div></a> <!-- page non créée : à faire pour s'éxercer sur les formulaires --> 
+				</nav>
+			</div>
+		</header>
+
+		<div id="fond">
+			<div id="conteneur1">
+					<div id="communauté"> <img src="../assets/img/bar4.jpg" class="commu" alt="Photo de bar" title="Photo de bar" /></div>
+			</div>
+		</div>	
+
+		<div id="conteneur2">
+			<h1>Communauté</h1>
+					<p>Venez échanger autour d'un bon verre de (nom de boisson de the OW) !</p> 
+			<div id="formulaire">
+				<form method="post" action="traitement.php"> <!-- élément non créé --> 
+					<p><label for="pseudo"> Votre pseudo :</label> <input type="text" name="pseudo" id="pseudo" placeholder="votre pseudo" /></p>
+					<p><label for="mdp"> Votre mot de passe :</label> <input type="password" name="mdp" id="mdp" placeholder="votre mot de passe"></p>
+				</form>	
+				<form method=‘‘post’’ action=‘‘traitement.php’’>
+					<p>	
+						<label for=‘‘ameliorer’’>Quel est votre avis sur The Outer Worlds ?</label><br/>
+						<textarea name=‘‘ameliorer’’ id=‘‘ameliorer’’ rows="30" cols="100"></textarea>
+					</p>
+				</form>
+				<!-- TEST -->
+			</div>
+		</div>
+
+
+
+		<footer>
+			<div id="conteneur6">
+				<a href="../htmls/Outerworlds.html"><img src="../assets/img/logoownoir.png" class="logoownoir2" alt="Logo the Outer Worlds" title="Logo the Outer Wordls" ></a>
+					<div id="informations">
+						<div> <a href="https://outerworlds.obsidian.net/fr/legal/ip-use">Legal</a></div> <!-- page reprise du site officiel --> 
+						<div> <a href="https://www.obsidian.net/privacy-policy">Privacy Policy</a></div> <!-- page reprise du site officiel --> 
+						<div> <a href="https://support.privatedivision.com/hc/en-us/categories/360002263514-the-Outer-Worlds">Support </a></div> <!-- page reprise du site officiel --> 
+					</div>
+						<p>© 2021 Obsidian Entertainment, Inc. Obsidian Entertainment and the Obsidian Entertainment logo are trademarks or registered trademarks of Obsidian Entertainment, Inc. the Outer Worlds and the Outer Worlds logos are trademarks or registered trademarks of Obsidian Entertainment, Inc.</p>
+						<p>© 2021 Take-Two Interactive Software, Inc. Trademarks belong to their respective owners. All rights reserved.</p>
+						<p>© 2021 PS4 is a trademark of Sony Computer Entertainment Inc.</p>
+						<P>© 2021 Nintendo Switch est une marque de Nintendo</P>
+						<P>© 2021 Advanced Micro Devices, Inc. All rights reserved. AMD, the AMD Arrow logo, Radeon, Ryzen and combinations thereof are trademarks of Advanced Micro Devices, Inc.</p>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,40 @@
+@font-face
+{
+	font-family: 'MaroonBold';
+	src : url('../assets/font/maroonbold.otf') format('otf'),
+	url('../assets/font/maroonbold.ttf') format('TrueType');
+}
+
+html
+{
+	background-image: url(../assets/img/logoow1.png), url(../assets/img/goldc2.jpg);
+	background-size: 70%, 100%;
+	background-position: 55% -25%, 0 0;
+	background-repeat: no-repeat;
+}
+/* noter chaque background + mettre en premier les valeurs par rapport à l'image du dessus + mettre des 0 quand il le faut pour éviter que les valeurs aillent sur les deux images */
+/* ma responsive a un gros problème : image du fond */
+/* revoir le design de la page (y a un truc qui me choque, je ne sais pas quoi...) */
+
+h1
+{ 
+	color: #FBAE17;
+	text-shadow: 6px 3px 2px black;
+	font-family: 'maroonbold';
+	z-index: 1;
+	position: absolute;
+	text-align: center;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 20%;
+	width: 80%;  
+	font-size: 250%; 
+}
+/* le h1 reste positionné par rapport au point d'origine de la page donc c'est normal que ça suit quand je redimensionne la fenêtre */
+
+/* POINT DE VUE GENERAL :
+- Revoir les textes 
+- revoir le code afin de le simplifier un max 
+- la taille des images pour le web : aie aie aie aie!
+*/

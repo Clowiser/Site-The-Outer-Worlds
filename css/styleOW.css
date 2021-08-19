@@ -1,0 +1,316 @@
+@font-face
+{
+	font-family: 'MaroonBold';
+	src : url('../assets/font/maroonbold.otf') format('otf'),
+	url('../assets/font/maroonbold.ttf') format('TrueType');
+}
+
+@font-face
+{
+	font-family: 'tw-cen-mt-6';
+	src : url('../assets/font/tw-cen-mt-6.ttf') format('TrueType');
+}
+
+body
+{
+	font-family: tw-cen-mt-6;
+	margin: 0;
+}
+
+a
+{
+	text-decoration: none;
+	color: #515151;
+}
+
+
+
+
+
+/* conteneur0*/
+
+.logoownoir
+{
+	width: 150px;
+	height: auto;
+	opacity: 0.8;
+}
+
+nav
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #efefef;
+	height: 100px;
+	font-family: 'tw-cen-mt-6';
+	font-size: 1.5em;
+	color: #515151;
+}
+
+
+
+
+
+#conteneur1
+{
+	background: url('../assets/img/logoow1.png') no-repeat, url('../assets/img/OWF.png') no-repeat center; 
+	height: 1080px;
+}
+
+#conteneur1 h1
+{
+	position: absolute;	
+	right: 5%;
+	top: 35%;
+}
+
+.dlc1
+{
+	width: 400px;
+	height: auto;
+	position: absolute;
+	right: 15%;
+	top: 43%;
+	z-index: 2;
+	box-shadow: -10px 10px 6px rgba(0, 9, 18, 0.8);
+}
+
+.dlc2
+{
+	width: 400px;
+	height: auto;
+	position: absolute;
+	right: 5%;
+	top: 65%;
+	z-index: 1;
+	box-shadow: 10px 10px 6px rgba(0, 9, 18, 0.8);
+}
+
+
+
+
+
+#conteneur2
+{
+	position: absolute;
+	bottom: -200px; /* a mettre en position relative pour la placer selon son propre bloc */
+	text-align: center;
+	width: 80%;
+	left: 10%;
+	color: #fbeac2;
+	
+}
+
+h1
+{
+	font-family: 'maroonbold';
+	color: #FBAE17;
+	font-size: 400%;
+	text-align: center;
+	margin: auto; 
+	text-shadow: 6px 3px 2px rgba(0, 9, 18, 0.6);
+}
+
+h2
+{
+	font-family: 'maroonbold';
+	color: #FBAE17;
+	font-size: 200%;
+	text-align: center;
+	margin: auto; 
+
+}
+
+#conteneur2 p
+{
+	font-size: 1.3em;
+}
+
+
+
+
+
+#conteneur3
+{
+	background-color: #07080d; 
+	color: white;
+	text-align: center;
+	padding-bottom: 2%;
+	padding-right: 5%;
+	padding-top: 1%;
+	
+}
+
+#conteneur3 h3 /* le h3 du conteneur 4 et du 3 n'effectuait pas la même marge de la gauche, ils étaient décalés alors que même marge : pourquoi? */
+{
+	text-align: left;
+	margin-left: 6.3%;
+	color: #FBAE17;
+	font-size: 1.6em;
+}
+
+.OElogo
+{
+	width: 60%;
+	height: auto;
+	position: relative;
+	top: 5%;
+}
+
+.PDlogo
+{
+	width: 30%;
+	height: auto;
+}
+
+.PGlogo
+{
+	width: 20%;
+	height: auto;
+	position: relative;
+	top: 5%;
+}
+
+.Datelogo
+{
+	width: 25%;
+	height: auto;
+	position: relative;
+	top: 5%;
+}
+
+.Console1logo
+{
+	width: 15%;
+	height: auto;
+	position: relative;
+	top: 20%;
+	right: 30%;
+}
+
+.Consolelogo
+{
+	width: 30%;
+	height: auto;
+	position: relative;
+	top: 40%;
+	left: 20%;
+}
+
+#propos
+{
+	display: flex;
+	padding-left: 5%;
+}
+
+#developper, #tags, #editeur, #class, #date, #console
+{
+	width: 50%;
+	justify-content: center;
+}
+
+
+
+
+
+#conteneur4
+{
+	padding: 3%;
+}
+
+#fond
+{
+	background: url(../assets/img/goldc2.jpg);
+	background-size: 100%;
+	width: 100%;
+	height: auto;
+	color: white;
+}
+
+#conteneur4 p
+{
+	margin-left: 1%;
+	font-size: 1.3em;
+}
+
+#conteneur4 ul
+{
+	text-align: justify;
+	font-size: 1.2em;
+	margin-right: 2%;
+}
+
+#conteneur4 h3
+{
+	text-align: left;
+	margin-left: 3%;
+	color: #FBAE17;
+	font-size: 1.6em;
+}
+
+
+
+
+
+#conteneur5
+{
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 2%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.personnages, .lieux, .bestiaires
+{
+	width: 400px;
+	height: auto;
+	box-shadow: 10px 10px 6px rgba(0, 9, 18, 0.8);
+}
+
+.titre
+{
+	font-family: 'maroonbold';
+	color: #FBAE17;
+	font-size: 2em;
+	text-shadow: 6px 3px 2px rgba(0, 9, 18, 0.8);
+	margin-left: 5%;
+	position: relative;
+	bottom: 20%;
+}
+
+
+
+
+
+#conteneur6
+{
+	background-color: #efefef;
+	font-family: 'tw-cen-mt-6';
+	color: #515151;
+	padding: 3%;
+}
+
+#informations
+{
+	display: flex;
+	justify-content: space-around;
+	font-size: 1.5em;
+	margin-bottom: 3%;
+}
+
+#conteneur6 p
+{
+	text-align: center;
+}
+
+.logoownoir2
+{
+	width: 300px;
+	height: auto;
+	opacity: 0.8;
+	position: relative;
+	left: 40%;
+	margin-bottom: 3%;
+}

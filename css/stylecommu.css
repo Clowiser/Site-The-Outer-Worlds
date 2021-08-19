@@ -1,0 +1,147 @@
+@font-face
+{
+	font-family: 'MaroonBold';
+	src : url('../assets/font/maroonbold.otf') format('otf'),
+	url('../assets/font/maroonbold.ttf') format('TrueType');
+}
+
+@font-face
+{
+	font-family: 'tw-cen-mt-6';
+	src : url('../assets/font/tw-cen-mt-6.ttf') format('TrueType');
+}
+
+body
+{
+	font-family: tw-cen-mt-6;
+	margin: 0;
+}
+
+a
+{
+	text-decoration: none;
+	color: #515151;
+}
+
+
+
+
+
+/* conteneur0*/
+
+.logoownoir
+{
+	width: 150px;
+	height: auto;
+	opacity: 0.8;
+}
+
+nav
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #efefef;
+	height: 100px;
+	font-family: 'tw-cen-mt-6';
+	font-size: 1.5em;
+	color: #515151;
+}
+
+
+#fond
+{
+	background: url(../assets/img/goldc2.jpg) no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: auto;
+}
+
+#conteneur1
+{
+	background: url('../assets/img/logoow1.png') no-repeat; 
+	background-position: 0px 60%;
+	width: auto;
+	height: 550px; 
+	color: white;
+	padding-bottom: 2%;
+}
+
+.commu
+{
+	width: 30%;
+	height: auto;
+	position: absolute;
+	right: 6%;
+	bottom: 40%;
+	box-shadow: 10px 10px 6px rgba(0, 9, 18, 0.8);
+}
+
+/* bon... c'est le gros bordel lorsque l'on diminue la taille de la fenêtre MAIS pour le moment on construire l'ensemble et on reverra après nos erreurs 
+- voir si image bar ne serait pas mieux en image fond */
+
+
+
+
+
+#conteneur2
+{
+	background-color: #07080d;
+	width: auto;
+	height: 700px;
+	color: white;
+	padding-top: 1%;
+	padding-bottom: 2%
+}
+
+#conteneur2 h1
+{
+	text-align: left;
+	margin-left: 3%;
+	color: #FBAE17;
+	font-size: 1.6em;
+}
+
+#conteneur2 p
+{
+	text-align: justify;
+	font-size: 1.2em;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+
+
+
+
+#conteneur6
+{
+	
+	background-color: #efefef;
+	font-family: 'tw-cen-mt-6';
+	color: #515151;
+	padding: 3%;
+}
+
+#informations
+{
+	display: flex;
+	justify-content: space-around;
+	font-size: 1.5em;
+	margin-bottom: 3%;
+}
+
+#conteneur6 p
+{
+	text-align: center;
+}
+
+.logoownoir2
+{
+	width: 300px;
+	height: auto;
+	opacity: 0.8;
+	position: relative; /* met le logo par dessus et calcule sa position par rapport au dim de la page */
+	left: 40%;
+	margin-bottom: 3%;
+}

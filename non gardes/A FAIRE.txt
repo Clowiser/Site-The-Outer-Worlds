@@ -1,0 +1,17 @@
+A changer :
+
+- #fond
+{
+Supprimer le width et heigh qui sont inutiles grâce au background-size:100%;
+}
+
+- revoir les dossiers :
+Dans le dossier principale image :
+- 1 dossier pour "Compagnons"
+- 1 dossier pour "logos"
+- 1 dossier pour "Galerie d'images" (fait)
+ET refaire le chemin des dossiers dans HTML et CSS
+
+- Personnages :
+- faire un retour à la page principale des compagnons
+- ou un système de flèches? JS
